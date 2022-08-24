@@ -50,12 +50,15 @@ header {
   float: left;
   margin: 0px 46px;
 }
-/*-- .menu .menu_item:hover {
+.menu_item:hover {
   color: var(--link_color);
 }
-.menu .menu_item:visited {
+.menu_item:visited {
   color: var(--link_visited);
-} --*/
+}
+.menu_item:active {
+  color: var(--link_visited);
+}
 .contact {
   padding-left: 1078px;
 }
