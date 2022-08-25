@@ -20,7 +20,7 @@ a {
 }
 
 button:hover {
-  color: var(--link_color);
+  color: var(--third_font-colorl);
   cursor: pointer;
   background-color: var(--activ_button-color);
 }
@@ -39,6 +39,9 @@ header {
 }
 .logo > span {
   color: var(--second_font-color);
+}
+.current_page {
+  color: var(--activ_button-color);
 }
 .menu_item {
   list-style: none;
@@ -119,4 +122,4 @@ footer {
   display: inline-block;
   float: left;
   margin: 0px 8px;
-}
+} 
